@@ -97,45 +97,7 @@ Based on our results, we recommend:
 - For resource-constrained environments, Bi-LSTM provides a good balance between performance and efficiency.
 - For extremely resource-limited scenarios, even a simple Bi-RNN can achieve reasonable performance, especially for common entity types.
 
-## 🚀 Getting Started
 
-### Prerequisites
-- Python 3.7+
-- PyTorch 1.7+
-- Transformers (for BERT)
-- Datasets (for Few-NERD)
-
-### Installation
-```bash
-git clone https://github.com/yourusername/ner-architectures.git
-cd ner-architectures
-pip install -r requirements.txt
-```
-
-### Training
-```bash
-python train.py --model bert --epochs 3
-```
-
-### Evaluation
-```bash
-python evaluate.py --model bert --checkpoint checkpoints/bert_best.pt
-```
-
-## 📄 Citation
-
-If you use this code in your research, please cite our work:
-
-```bibtex
-@misc{ner-architectures-comparison,
-  author = {Your Name},
-  title = {Comparative Analysis of Neural Architectures for Named Entity Recognition},
-  year = {2025},
-  publisher = {GitHub},
-  journal = {GitHub repository},
-  howpublished = {\url{https://github.com/yourusername/ner-architectures}}
-}
-```
 
 ## 📚 References
 
@@ -145,6 +107,3 @@ If you use this code in your research, please cite our work:
 - Graves, A., & Schmidhuber, J. (2005). Framewise phoneme classification with bidirectional LSTM and other neural network architectures.
 - Elman, J. L. (1990). Finding structure in time.
 
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
